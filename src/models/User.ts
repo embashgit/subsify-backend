@@ -1,6 +1,5 @@
 import { DataTypes, Model } from 'sequelize';
 import sequelize from '../config/config';
-import Queue from './Queue';
 
 class User extends Model {
   public id!: string;
@@ -40,6 +39,5 @@ User.init({
   timestamps: true,
 });
 // In User.ts
-User.belongsToMany(Queue, { through: 'UserQueue', foreignKey: 'userId' });
 
 export default User;

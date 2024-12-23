@@ -1,7 +1,7 @@
 {
-  "name": "queuewise-backend",
+  "name": "subsify-backend",
   "version": "1.0.0",
-  "description": "QueueWise is a modern queue management application built with Next.js and TypeScript. It provides a seamless solution for businesses to efficiently manage queues, streamline customer service, and enhance user experience.",
+  "description": "Subscription Management Tool, reflecting its core functionality of simplifying subscription tracking and management. It emphasizes user empowerment by offering privacy-focused, manual entry-based tools for monitoring recurring expenses, reducing unnecessary costs, and enhancing financial control. Designed to stand apart from automated financial integration solutions, Subsify combines intuitive design, robust security, and actionable insights to address subscription fatigue effectively.",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -11,9 +11,8 @@
     "db:seed": "sequelize db:seed:all"
   },
   "keywords": [
-    "QueueWise",
-    "Queue",
-    "waiting"
+    "subsify_db",
+    "subsify"
   ],
   "author": "Ibrahim Muhammad Bashir",
   "license": "ISC",
