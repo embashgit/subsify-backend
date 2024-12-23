@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",    // Output directory for compiled JavaScript
+    "rootDir": "./src",    // Root directory of your source files
+    "baseUrl": "./src",    // Base URL for absolute imports
+    "paths": {
+      "@src/*": ["./*"]    // Alias for absolute imports
+    },
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
